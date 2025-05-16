@@ -58,7 +58,7 @@ public class Main {
             }
             System.out.println();
 
-            System.out.println("Guess a letter: ");
+            System.out.print("Guess a letter: ");
             char guess = scanner.next().toUpperCase().charAt(0);
 
             if(word.indexOf(guess) >= 0){
